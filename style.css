@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    align-items: center; /* Vertically aligns the logo */
+    height: 60px; /* Adjust as per your nav height */
+    padding: 0 20px; /* Add padding if needed */
+  }
+  
+  nav .logo img {
+    max-height: 100%; /* Keeps the logo within the nav height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures the image scales without distortion */
+  }
+  
