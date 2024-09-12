@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="">
 
 <!--Navigation bar start -->
 <nav class="container mx-auto">
@@ -51,95 +51,91 @@
 </nav>
 <!--Navigation bar end -->
 
-<!--courses section start-->
-<div class="mx-auto my-5 h-1/2 w-4/5">
-    <div class="flex justify-evenly">
-        <div class="mx-8">
-            <a href="#" class="group relative block bg-black rounded-lg">
-            <img
-              alt=""
-              src="pexels-chokniti-khongchum-1197604-2280571.jpg"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 rounded-lg"
-            />
-          
-            <div class="relative p-4 sm:p-6 lg:p-8 rounded-lg">
-              <!-- <p class="text-sm font-medium uppercase tracking-widest text-pink-500">Developer</p> -->
-          
-              <p class="text-xl font-bold text-white sm:text-2xl">Next Generation Sequencing</p>
-          
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div
-                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                >
-                  <p class="text-sm text-white">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores
-                    quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?
-                  </p>
-                </div>
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white py-20">
+      <div class="container mx-auto text-center">
+          <h1 class="text-4xl font-bold">Upcoming Workshops</h1>
+          <p class="mt-4 text-xl">Learn new skills, connect with professionals, and grow your expertise!</p>
+          <a href="#workshops" class="mt-6 inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-full">Explore Workshops</a>
+      </div>
+  </section>
+
+  <!-- Workshops Section start -->
+  <section id="workshops" class="py-16 w-4/5 mx-auto">
+      <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-semibold mb-6">Our Upcoming Workshops</h2>
+          <p class="text-lg mb-10 max-w-2xl mx-auto">
+              Join one of our hands-on, interactive workshops designed to help you build practical skills in a variety of subjects.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+              <!-- Workshop 1 -->
+              <div class="bg-white p-6 shadow-lg rounded-lg">
+                  <h3 class="font-semibold text-xl mb-4">Intro to Web Development</h3>
+                  <p class="text-gray-600 mb-2">Date: October 15, 2024</p>
+                  <p class="text-gray-600 mb-4">Location: Online</p>
+                  <p>Get started with HTML, CSS, and JavaScript in this beginner-friendly workshop!</p>
+                  <a href="#" class="bg-blue-600 text-white px-4 py-2 mt-4 inline-block rounded-full">Sign Up</a>
               </div>
-            </div>
-          </a>
-        </div>
-        <div class="mx-8">
-            <a href="#" class="group relative block bg-black rounded-lg">
-            <img
-              alt=""
-              src="pexels-chokniti-khongchum-1197604-2280568.jpg"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 rounded-lg"
-            />
-          
-            <div class="relative p-4 sm:p-6 lg:p-8 rounded-lg">
-              <!-- <p class="text-sm font-medium uppercase tracking-widest text-pink-500">Developer</p> -->
-          
-              <p class="text-xl font-bold text-white sm:text-2xl">Python and R for biological Data Analysis and Machine Learning</p>
-          
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div
-                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                >
-                  <p class="text-sm text-white">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores
-                    quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?
-                  </p>
-                </div>
+
+              <!-- Workshop 2 -->
+              <div class="bg-white p-6 shadow-lg rounded-lg">
+                  <h3 class="font-semibold text-xl mb-4">Data Science Bootcamp</h3>
+                  <p class="text-gray-600 mb-2">Date: November 1, 2024</p>
+                  <p class="text-gray-600 mb-4">Location: San Francisco, CA</p>
+                  <p>Learn data analysis techniques, Python programming, and machine learning fundamentals.</p>
+                  <a href="#" class="bg-blue-600 text-white px-4 py-2 mt-4 inline-block rounded-full">Sign Up</a>
               </div>
-            </div>
-          </a>
-        </div>
-        <div class="mx-8">
-            <a href="#" class="group relative block bg-black rounded-lg">
-            <img
-              alt=""
-              src="pexels-chokniti-khongchum-1197604-2280568.jpg"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 rounded-lg"
-            />
-          
-            <div class="relative p-4 sm:p-6 lg:p-8 rounded-lg">
-              <!-- <p class="text-sm font-medium uppercase tracking-widest text-pink-500">Developer</p> -->
-          
-              <p class="text-xl font-bold text-white sm:text-2xl">Computer Aided Drug Design</p>
-          
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div
-                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                >
-                  <p class="text-sm text-white">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores
-                    quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?
-                  </p>
-                </div>
+
+              <!-- Workshop 3 -->
+              <div class="bg-white p-6 shadow-lg rounded-lg">
+                  <h3 class="font-semibold text-xl mb-4">Advanced UI/UX Design</h3>
+                  <p class="text-gray-600 mb-2">Date: November 10, 2024</p>
+                  <p class="text-gray-600 mb-4">Location: New York, NY</p>
+                  <p>Take your design skills to the next level by mastering user experience and user interface design principles.</p>
+                  <a href="#" class="bg-blue-600 text-white px-4 py-2 mt-4 inline-block rounded-full">Sign Up</a>
               </div>
-            </div>
-          </a>
-        </div>
-    </div>
-</div>
 
+              <!-- Workshop 4 -->
+              <div class="bg-white p-6 shadow-lg rounded-lg">
+                  <h3 class="font-semibold text-xl mb-4">Cloud Computing with AWS</h3>
+                  <p class="text-gray-600 mb-2">Date: December 5, 2024</p>
+                  <p class="text-gray-600 mb-4">Location: Online</p>
+                  <p>Explore cloud infrastructure, services, and deployment strategies using AWS technologies.</p>
+                  <a href="#" class="bg-blue-600 text-white px-4 py-2 mt-4 inline-block rounded-full">Sign Up</a>
+              </div>
 
+              <!-- Workshop 5 -->
+              <div class="bg-white p-6 shadow-lg rounded-lg">
+                  <h3 class="font-semibold text-xl mb-4">AI for Beginners</h3>
+                  <p class="text-gray-600 mb-2">Date: December 15, 2024</p>
+                  <p class="text-gray-600 mb-4">Location: London, UK</p>
+                  <p>Discover the basics of artificial intelligence, including key concepts in machine learning and neural networks.</p>
+                  <a href="#" class="bg-blue-600 text-white px-4 py-2 mt-4 inline-block rounded-full">Sign Up</a>
+              </div>
 
-<!--courses section end-->
+              <!-- Workshop 6 -->
+              <div class="bg-white p-6 shadow-lg rounded-lg">
+                  <h3 class="font-semibold text-xl mb-4">Mastering Git & GitHub</h3>
+                  <p class="text-gray-600 mb-2">Date: January 5, 2025</p>
+                  <p class="text-gray-600 mb-4">Location: Online</p>
+                  <p>Become proficient in version control, branch management, and collaborative coding with Git and GitHub.</p>
+                  <a href="#" class="bg-blue-600 text-white px-4 py-2 mt-4 inline-block rounded-full">Sign Up</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Workshops Section end -->
 
-
+  <!-- Call to Action Section start -->
+  <section class="bg-blue-600 text-white py-20">
+      <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-4">Don't Miss Out!</h2>
+          <p class="mb-8 text-lg">Sign up today and secure your spot in one of our exciting workshops!</p>
+          <a href="#workshops" class="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-full">View All Workshops</a>
+      </div>
+  </section>
+  <!-- Call to Action Section end -->
 
 <!--footer section start -->
 <footer class="">
@@ -229,8 +225,6 @@
     </div>
 </footer>
 <!--footer section end -->
-
 <script src="main.js"></script>
-
 </body>
 </html>
